@@ -1,0 +1,130 @@
+.wrapper {
+  background-color: $color_fon;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  padding-top: 26px;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.section__text {
+  font-family: $font_acrom;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: $color_white;
+  margin-bottom: 20px;
+
+  &--name {
+    font-family: $font_acrom;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 26px;
+    color: $color_aqua;
+    margin-bottom: 23px;
+  }
+}
+
+.section__point {
+  font-family: $font_acrom;
+  color: $color_yellow;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+
+  &--city {
+    font-family: $font_acrom;
+    color: $color_yellow;
+    font-weight: 900;
+    font-style: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+.section__confidence {
+  align-self: flex-end;
+  font-family: $font_acrom;
+  color: #5d6066;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.info {
+  width: 260px;
+  background-color: $color_white;
+  box-shadow: 0 0 60px 0px hsl(0, 0%, 50%);
+  padding: 20px 20px 26px;
+}
+
+.info__section {
+  margin-bottom: 14px;
+}
+
+.info__head {
+  display: block;
+  font-family: $font_acrom;
+  color: $color_black;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.info__text {
+  font-family: $font_acrom;
+  color: $color_black;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.element {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #717171;
+  padding: 14px;
+}
+
+.element:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+
+.field {
+  font-family: $font_acrom;
+  color: #a2a2a2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  background-color: #ff6b08;
+  color: #fff;
+  font-family: $font_acrom;
+  font-weight: 400;
+  border: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+
+
+  &:hover {
+    opacity: 0.3;
+  }
+}
+

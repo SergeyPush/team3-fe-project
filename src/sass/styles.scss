@@ -1,4 +1,12 @@
 /*
    Import partials below
 */
+@import '../fonts/stylesheet.css';
 @import './normalize';
+@import './reset.scss';
+@import './variables';
+@import './_general';
+
+/*Components */
+
+@import './components/header';

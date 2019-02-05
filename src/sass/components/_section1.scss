@@ -1,0 +1,41 @@
+.advice__title {
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 30px;
+  color: $color_black;
+  font-family: $font_acrom;
+  font-weight: bold;
+  padding-top: 35px;
+  margin-bottom: 23px;
+}
+
+.advice__item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.advice__list {
+  padding-left: 37px;
+}
+
+.advice__list:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.advice__text {
+  font-size: 14px;
+  line-height: 20px;
+  color: $color_black;
+  font-family: $font_acrom;
+
+  &--color {
+    color: $color_black;
+  }
+}
+
+.color {
+  color: $color_black;
+  font-weight: bold;
+}

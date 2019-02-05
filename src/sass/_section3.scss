@@ -1,0 +1,131 @@
+.intresting-offering {
+
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+    .interesting {
+
+        .section__header {
+            margin-bottom: 28px;
+            text-align: left;
+        }
+
+        background-image: url("../images/img/map.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+
+        .interesting__text {
+            font-family: $font_acrom;
+            color: $color_black;
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 20px;
+            text-align: left;
+            padding-bottom: 22px;
+
+        }
+
+        .interesting__list {
+            padding: 0 18px;
+            padding-bottom: 34px;
+
+        }
+
+        .interesting__title {
+            font-family: $font_acrom;
+            color: $color_aqua;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 25px;
+            text-align: left;
+            margin-bottom: 12px;
+        }
+
+        .interesting__desc {
+            font-family: $font_acrom;
+            color: $color_black;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: left;
+            margin-bottom: 28px;
+        }
+
+        .interesting__income-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+
+        .interesting__income-item {
+            width: 48%;
+        }
+
+        .interesting__income-title {
+            font-family: $font_acrom;
+            color: #00eaff;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: -1px;
+            text-align: left;
+        }
+
+        .interesting__income-desc {
+            font-family: Acrom;
+            color: #222222;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 11px;
+            text-align: left;
+        }
+
+    }
+
+    .offering {
+
+        .section__header {
+            margin-bottom: 20px;
+        }
+
+        .offering__list {
+            padding: 0 18px;
+        }
+
+        .offering__item {
+            position: relative;
+
+
+
+            :before {
+                content: "";
+                display: block;
+                width: 12px;
+                height: 12px;
+                background-color: $color_aqua;
+                position: absolute;
+                top: 4px;
+                left: -12px;
+
+            }
+
+        }
+
+        .offering__item:not(:nth-last-of-type(1)) {
+            margin-bottom: 16px;
+        }
+
+        .offering__desc {
+            font-size: 14px;
+            letter-spacing: -1px;
+            line-height: 20px;
+            color: $color_black;
+            font-family: $font_acrom;
+            padding-left: 12px;
+
+        }
+
+    }
+}

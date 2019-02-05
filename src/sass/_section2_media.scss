@@ -1,13 +1,53 @@
 // Mobile
-@media (max-width:767px) {}
+@media (max-width: 767px) {
+  .consultation {
+    .consultation__item:not(:last-of-type) {
+      margin-bottom: 40px;
+    }
+  }
+}
 
 // Tablet
-@media (min-width:768px){
-    
+@media (min-width: 768px) {
+  .consultation {
+    .container {
+      width: 748px;
+      padding: 0;
+    }
 
+    .section__header {
+      font-size: 30px;
+      max-width: 580px;
+      padding-bottom: 36px;
+    }
+
+    .consultation__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .consultation__item {
+      max-width: 228px;
+      margin-bottom: 0;
+    }
+
+    .item__numbering {
+      font-size: 70px;
+      top: -54px;
+    }
+
+    .button {
+      padding: 20px 0;
+      max-width: 532px;
+      text-transform: none;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+  }
 }
 
 // Desktop
-@media (min-width:960px){
-    
+@media (min-width: 960px) {
 }

@@ -1,3 +1,8 @@
+.advice {
+  display: flex;
+  flex-direction: column;
+}
+
 .advice__title {
   font-size: 20px;
   letter-spacing: -1px;
@@ -18,13 +23,13 @@
 
 .advice__list {
   padding-left: 37px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 
-.advice__list:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.advice__text {
+.advice__list .advice__text {
   font-size: 14px;
   line-height: 20px;
   color: $color_black;

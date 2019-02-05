@@ -565,6 +565,11 @@ li {
   margin-bottom: 28px;
 }
 
+.advice {
+  display: flex;
+  flex-direction: column;
+}
+
 .advice__title {
   font-size: 20px;
   letter-spacing: -1px;
@@ -591,14 +596,14 @@ li {
   margin-bottom: 20px;
 }
 
-.advice__text {
+.advice__list .advice__text {
   font-size: 14px;
   line-height: 20px;
   color: #222222;
   font-family: "Acrom", sans-serif;
 }
 
-.advice__text--color {
+.advice__list .advice__text--color {
   color: #222222;
 }
 

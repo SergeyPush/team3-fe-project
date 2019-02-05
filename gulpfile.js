@@ -111,7 +111,7 @@ gulp.task('watch', () => {
   gulp.watch('src/**/*.html', ['html']).on('change', server.reload);
   gulp.watch('src/sass/**/*.scss', ['styles']);
   gulp.watch('src/js/**/*.js', ['scripts']).on('change', server.reload);
-  gulp.watch('/src/images/**/*.{png,jpg,jpeg,svg}', ['images']).on('change', server.reload);
+  gulp.watch('src/images/**/*.{png,jpg,jpeg,svg}', ['images']).on('change', server.reload);
 });
 
 gulp.task('serve', ['styles'], () => {

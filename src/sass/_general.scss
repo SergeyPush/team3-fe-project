@@ -5,6 +5,15 @@
   margin: 0 auto;
 }
 
-.bolder{
+.bolder {
   font-weight: bold;
+}
+
+.section__header {
+  font-size: 20px;
+  font-family: $font_acrom;
+  color: $color_black;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
 }

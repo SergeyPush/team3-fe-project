@@ -578,14 +578,13 @@ li {
   color: #222222;
   font-family: "Acrom", sans-serif;
   font-weight: bold;
-  padding-top: 35px;
-  margin-bottom: 23px;
+  padding-top: 30px;
+  margin-bottom: 25px;
 }
 
 .advice__item {
   display: flex;
   flex-direction: column;
-  position: relative;
   margin-bottom: 40px;
 }
 
@@ -597,14 +596,14 @@ li {
   margin-bottom: 20px;
 }
 
-.advice__list .advice__text {
+.advice__text {
   font-size: 14px;
   line-height: 20px;
   color: #222222;
   font-family: "Acrom", sans-serif;
 }
 
-.advice__list .advice__text--color {
+.advice__text--color {
   color: #222222;
 }
 
@@ -699,5 +698,23 @@ li {
 
   .confidence {
     margin-bottom: 30px;
+  }
+
+  .advice__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .advice__item {
+    margin-bottom: 51px;
+  }
+
+  .advice__list {
+    padding-left: 40px;
+  }
+
+  .advice__text {
+    font-size: 16px;
+    line-height: 22px;
   }
 }

@@ -1,3 +1,25 @@
 // Tablet
 @media (min-width: 768px) {
+  .advice__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .advice__item {
+    margin-bottom: 51px;
+  }
+
+  .advice__list {
+    padding-left: 40px;
+  }
+
+  .advice__text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+//Laptop
+@media (min-width: 992px) {
+
 }

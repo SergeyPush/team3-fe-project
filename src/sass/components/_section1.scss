@@ -10,14 +10,13 @@
   color: $color_black;
   font-family: $font_acrom;
   font-weight: bold;
-  padding-top: 35px;
-  margin-bottom: 23px;
+  padding-top: 30px;
+  margin-bottom: 25px;
 }
 
 .advice__item {
   display: flex;
   flex-direction: column;
-  position: relative;
   margin-bottom: 40px;
 }
 
@@ -29,7 +28,7 @@
   }
 }
 
-.advice__list .advice__text {
+.advice__text {
   font-size: 14px;
   line-height: 20px;
   color: $color_black;

@@ -1,0 +1,89 @@
+// Tablet
+@media (min-width: 768px) {
+  .container {
+    width: 748px;
+  }
+
+  .tablet {
+    max-width: 620px;
+  }
+
+  .section__header {
+    padding-top: 32px;
+    margin-bottom: 21px;
+  }
+
+  .section__text {
+    margin-bottom: 34px;
+    letter-spacing: 1px;
+
+    &--size {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      margin-bottom: 33px;
+    }
+  }
+
+  .section__name {
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .section__point {
+    font-size: 18px;
+  }
+
+  .section__city {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .info__head {
+    width: 383px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .info__text {
+    line-height: 20px;
+    text-align: center;
+  }
+
+  /*--FORMA--*/
+
+  .info {
+    padding: 23px 77px 41px;
+    margin-bottom: 10px;
+  }
+
+  .info__section {
+    margin-bottom: 25px;
+  }
+
+  .info__head {
+    margin-bottom: 20px;
+  }
+
+  .info__text {
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .form {
+    margin-bottom: 27px;
+  }
+
+  .field {
+    font-weight: 500;
+  }
+
+  .confidence {
+    margin-bottom: 30px;
+  }
+}

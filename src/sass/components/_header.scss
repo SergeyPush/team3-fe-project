@@ -1,16 +1,17 @@
 .wrapper {
   background-color: $color_fon;
-  position: relative;
 }
 
 .logo {
   display: block;
   padding-top: 26px;
+  margin: auto;
 }
 
 .section__header {
   display: flex;
   flex-direction: column;
+  margin: auto;
   padding-top: 25px;
   margin-bottom: 15px;
 }
@@ -53,11 +54,12 @@
   letter-spacing: -1px;
 }
 
-/*FORMA*/
+/*--FORMA--*/
 
-.section{
+.section {
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .info {
@@ -98,7 +100,7 @@
 .element {
   width: 100%;
   height: 38px;
-  border: 1px solid #717171;
+  border: 1px solid $color_greybark;
   padding: 14px;
 }
 
@@ -108,7 +110,7 @@
 
 .field {
   font-family: $font_acrom;
-  color: #a2a2a2;
+  color: $color_greylight;
   font-size: 14px;
   font-weight: 400;
 }
@@ -116,8 +118,8 @@
 .button {
   width: 100%;
   height: 40px;
-  background-color: #ff6b08;
-  color: #fff;
+  background-color: $color_button;
+  color: $color_white;
   font-family: $font_acrom;
   font-weight: 700;
   border: none;
@@ -133,9 +135,8 @@
 
 .confidence {
   display: inline-block;
-  width: 281px;
   font-family: $font_acrom;
-  color: #5d6066;
+  color: $color_greybark;
   font-size: 13px;
   font-weight: 400;
   text-align: center;

@@ -11,7 +11,7 @@
 @media (min-width: 768px) {
   .consultation {
     .container {
-      width: 748px;
+      max-width: 748px;
       padding: 0;
     }
 
@@ -49,4 +49,5 @@
 }
 
 // Desktop
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+}

@@ -1,61 +1,61 @@
 // Tablet
 @media (max-width: 767px) {
+  .intresting-offering {
+    background-image: url("../images/img/map.png");
+    background-repeat: no-repeat;
+    background-position: center right;
 
-    .interesting {
-        background-image: url("../images/img/map.png");
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: contain;
-    }
-
-
+    background-size: 80%;
+  }
 }
 
 @media (min-width: 768px) {
-
-    .intresting-offering {
-        .section__header {
-            font-size: 30px;
-            text-align: center;
-        }
-
-
-        .container {
-            width: 746px;
-        }
-
-        .interesting {
-
-            .interesting__text {
-
-                font-size: 18px;
-                text-align: center;
-                max-width: 400px;
-                margin: 0 auto;
-            }
-
-            .interesting__list {
-                max-width: 700px;
-                box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
-                margin: 0 auto;
-
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                padding: 50px 55px 65px;
-            }
-
-            .interesting__item:not(:nth-last-of-type(1)) {
-                max-width: 170px;
-            }
-
-            .interesting__income-list {
-                max-width: 256px;
-            }
-
-        }
-
-
+  .intresting-offering {
+    .section__header {
+      font-size: 30px;
+      text-align: center;
     }
 
+    .container {
+      max-width: 660px;
+      padding: 20px;
+    }
+
+    .interesting {
+      background-image: url("../images/img/map2.png");
+      background-repeat: no-repeat;
+      background-position: 90% 70%;
+      margin-bottom: 24px;
+      min-width: 750px;
+      .interesting__text {
+        font-size: 18px;
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .interesting__list {
+        max-width: 700px;
+        box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
+        margin: 0 auto;
+        max-width: 700px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 55px 65px;
+      }
+
+      .interesting__item:not(:nth-last-of-type(1)) {
+        max-width: 170px;
+      }
+
+      .interesting__item--wide {
+        max-width: 256px;
+      }
+    }
+
+    .offering {
+    }
+  }
 }

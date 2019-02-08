@@ -414,15 +414,16 @@ li {
   list-style: none;
 }
 
-.container {
-  width: 260px;
-  margin: 0 auto;
-}
-
 /*Components */
 
 .wrapper {
   background-color: #181c27;
+}
+
+.container {
+  width: 320px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -655,7 +656,7 @@ li {
   }
 
   .info__head {
-    width: 383px;
+    max-width: 383px;
     margin: auto;
     font-size: 24px;
     line-height: 28px;
@@ -716,5 +717,19 @@ li {
   .advice__text {
     font-size: 16px;
     line-height: 22px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 1170px;
+  }
+
+  .tablet {
+    max-width: 1190px;
+  }
+
+  .desktop {
+    display: flex;
   }
 }

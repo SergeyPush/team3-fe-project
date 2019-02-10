@@ -19,20 +19,31 @@
   }
 }
 
-//Laptop
+//Desktop
 @media (min-width: 992px) {
   .advice {
     flex-direction: row;
-    padding-top: 120px;
+    justify-content: space-between;
     margin-bottom: 90px;
   }
 
   .advice__title {
+    width: 488px;
     font-size: 48px;
     letter-spacing: -2px;
     line-height: 60px;
     padding: 0;
     margin: 0;
+    padding-top: 120px;
+  }
+
+  .advice__item {
+    width: 555px;
+    padding-top: 120px;
+  }
+
+  .advice__list{
+    padding-left: 70px;
   }
 
   .advice__text {

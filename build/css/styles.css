@@ -417,6 +417,7 @@ li {
 /*Components */
 
 .wrapper {
+  height: 100vh;
   background-color: #181c27;
 }
 
@@ -651,19 +652,6 @@ li {
     letter-spacing: -2px;
   }
 
-  .info__head {
-    max-width: 383px;
-    margin: auto;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-  }
-
-  .info__text {
-    line-height: 20px;
-    text-align: center;
-  }
-
   /*--FORMA--*/
 
   .info {
@@ -676,6 +664,10 @@ li {
   }
 
   .info__head {
+    margin: auto;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
     margin-bottom: 20px;
   }
 
@@ -683,6 +675,7 @@ li {
     line-height: 20px;
     letter-spacing: 1px;
     text-align: center;
+    line-height: 20px;
   }
 
   .form {
@@ -717,9 +710,52 @@ li {
 }
 
 @media (min-width: 992px) {
+  .advice {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 90px;
+  }
+
+  .advice__title {
+    width: 488px;
+    font-size: 48px;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    margin: 0;
+    padding-top: 120px;
+  }
+
+  .advice__item {
+    width: 555px;
+    padding-top: 120px;
+  }
+
+  .advice__list {
+    padding-left: 70px;
+  }
+
+  .advice__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
   .container {
     width: 1170px;
-    padding: 0;
+    padding: 0 15px;
+  }
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    margin-bottom: 90px;
+  }
+
+  .logo {
+    padding-top: 36px;
   }
 
   .section__header {
@@ -728,32 +764,29 @@ li {
     margin: 0;
   }
 
-  .desktop {
-    display: flex;
-    padding-top: 70px;
-  }
-
-  .logo {
-    padding-top: 36px;
-  }
-
   .section__text {
     font-size: 20px;
     letter-spacing: -1px;
     line-height: 30px;
+    margin-bottom: 40px;
   }
 
   .section__text--size {
+    width: 616px;
     font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 40px;
   }
 
   .section__name {
     font-size: 60px;
     line-height: 70px;
+    margin-bottom: 40px;
   }
 
-  .section__point .section__city {
+  .section__point {
     font-size: 29px;
+    margin-bottom: 20px;
   }
 
   .section {
@@ -761,26 +794,53 @@ li {
     width: 460px;
   }
 
+  /*--FORMA--*/
+
   .info {
-    padding: 40px 36px 50px;
+    padding: 40px 35px 50px;
+    margin-bottom: 15px;
   }
 
-  .advice {
-    flex-direction: row;
-    padding-top: 120px;
-    margin-bottom: 90px;
+  .info__section {
+    margin-bottom: 30px;
   }
 
-  .advice__title {
-    font-size: 48px;
-    letter-spacing: -2px;
-    line-height: 60px;
-    padding: 0;
-    margin: 0;
+  .info__head {
+    font-size: 33px;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 28px;
   }
 
-  .advice__text {
+  .info__text {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .form {
+    margin-bottom: 38px;
+  }
+
+  .element {
+    height: 58px;
+  }
+
+  .element:not(:last-of-type) {
+    margin-bottom: 38px;
+  }
+
+  .field {
+    font-size: 18px;
+  }
+
+  .button {
+    height: 58px;
+    font-size: 22px;
+  }
+
+  .confidence {
+    margin: 0;
+    font-size: 17px;
   }
 }

@@ -441,7 +441,7 @@ li {
 }
 
 .section__text {
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -452,7 +452,7 @@ li {
 }
 
 .section__name {
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   font-size: 20px;
   letter-spacing: -1px;
   font-weight: 800;
@@ -462,7 +462,7 @@ li {
 }
 
 .section__point {
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   color: #f9ae22;
   font-size: 14px;
   font-weight: bold;
@@ -471,7 +471,7 @@ li {
 }
 
 .section__city {
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   color: #f9ae22;
   font-weight: 800;
   font-size: 20px;
@@ -499,7 +499,7 @@ li {
 
 .info__head {
   display: block;
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   color: #222222;
   font-size: 16px;
   font-weight: 800;
@@ -508,7 +508,7 @@ li {
 }
 
 .info__text {
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   color: #222222;
   font-size: 13px;
   font-weight: 300;
@@ -533,7 +533,7 @@ li {
 }
 
 .field {
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   color: #a2a2a2;
   font-size: 14px;
   font-weight: 400;
@@ -544,7 +544,7 @@ li {
   height: 40px;
   background-color: #ff6b08;
   color: white;
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   font-weight: 700;
   border: none;
   text-transform: uppercase;
@@ -559,7 +559,7 @@ li {
 
 .confidence {
   display: inline-block;
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   color: #717171;
   font-size: 13px;
   font-weight: 400;
@@ -577,7 +577,7 @@ li {
   letter-spacing: -1px;
   line-height: 30px;
   color: #222222;
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
   font-weight: bold;
   padding-top: 30px;
   margin-bottom: 25px;
@@ -601,7 +601,7 @@ li {
   font-size: 14px;
   line-height: 20px;
   color: #222222;
-  font-family: "Acrom", sans-serif;
+  font-family: Acrom, sans-serif;
 }
 
 .advice__text--color {
@@ -616,10 +616,6 @@ li {
 @media (min-width: 768px) {
   .container {
     width: 748px;
-  }
-
-  .tablet {
-    max-width: 620px;
   }
 
   .section__header {
@@ -723,13 +719,68 @@ li {
 @media (min-width: 992px) {
   .container {
     width: 1170px;
+    padding: 0;
   }
 
-  .tablet {
-    max-width: 1190px;
+  .section__header {
+    width: 654px;
+    padding: 0;
+    margin: 0;
   }
 
   .desktop {
     display: flex;
+    padding-top: 70px;
+  }
+
+  .logo {
+    padding-top: 36px;
+  }
+
+  .section__text {
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 30px;
+  }
+
+  .section__text--size {
+    font-size: 35px;
+  }
+
+  .section__name {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .section__point .section__city {
+    font-size: 29px;
+  }
+
+  .section {
+    margin: 0;
+    width: 460px;
+  }
+
+  .info {
+    padding: 40px 36px 50px;
+  }
+
+  .advice {
+    flex-direction: row;
+    padding-top: 120px;
+    margin-bottom: 90px;
+  }
+
+  .advice__title {
+    font-size: 48px;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .advice__text {
+    font-size: 18px;
+    line-height: 30px;
   }
 }

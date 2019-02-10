@@ -4,10 +4,6 @@
     width: 748px;
   }
 
-  .tablet {
-    max-width: 620px;
-  }
-
   .section__header {
     padding-top: 32px;
     margin-bottom: 21px;
@@ -88,16 +84,55 @@
   }
 }
 
+//Laptop
 @media (min-width: 992px) {
   .container {
     width: 1170px;
+    padding: 0;
   }
 
-  .tablet {
-    max-width: 1190px;
+  .section__header {
+    width: 654px;
+    padding: 0;
+    margin: 0;
   }
 
   .desktop {
     display: flex;
+    padding-top: 70px;
+    //margin-bottom: 90px;
+  }
+
+  .logo {
+    padding-top: 36px;
+  }
+
+  .section__text {
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 30px;
+
+    &--size {
+      font-size: 35px;
+      line-height: 35px;
+    }
+  }
+
+  .section__name {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .section__point .section__city {
+    font-size: 29px;
+  }
+
+  .section {
+    margin: 0;
+    width: 460px;
+  }
+
+  .info {
+    padding: 40px 36px 50px;
   }
 }

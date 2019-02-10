@@ -21,5 +21,22 @@
 
 //Laptop
 @media (min-width: 992px) {
+  .advice {
+    flex-direction: row;
+    padding-top: 120px;
+    margin-bottom: 90px;
+  }
 
+  .advice__title {
+    font-size: 48px;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .advice__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }

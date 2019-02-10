@@ -4,6 +4,10 @@
     .consultation__item:not(:last-of-type) {
       margin-bottom: 40px;
     }
+
+    .container {
+      padding: 0 18px;
+    }
   }
 }
 
@@ -11,8 +15,7 @@
 @media (min-width: 768px) {
   .consultation {
     .container {
-      max-width: 748px;
-      padding: 0;
+      max-width: 660px;
     }
 
     .section__header {
@@ -24,6 +27,8 @@
     .consultation__list {
       flex-direction: row;
       justify-content: space-around;
+      max-width: 90%;
+      padding: 0;
     }
 
     .consultation__item {
@@ -48,7 +53,6 @@
 
 // Desktop
 @media (min-width: 992px) {
-
   .consultation {
     .container {
       max-width: 1170px;
@@ -68,7 +72,7 @@
     }
 
     .consultation__item {
-      max-width: 350px;
+      max-width: 30%;
       padding-bottom: 60px;
     }
 
@@ -92,7 +96,5 @@
       font-size: 25px;
       line-height: 1.2;
     }
-
-
   }
 }

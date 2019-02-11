@@ -30,13 +30,14 @@
       // min-width: 750px;
 
       .interesting__wrapper {
-        box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
+        box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -20px 20px 0px 0px rgba(230, 233, 235, 1);
+
         padding-top: 20px;
       }
 
       .interesting__text {
         font-size: 18px;
-        text-align: center;
+        text-align: left;
         max-width: 400px;
         margin: 0 auto;
       }
@@ -83,12 +84,12 @@
 
     .interesting {
       margin-bottom: 0;
-      margin-right: 20px;
-      max-width: 65%;
+      margin-right: 40px;
+      min-width: 65%;
     }
 
     .offering {
-      max-width: 35%;
+      min-width: 50%;
     }
   }
 }

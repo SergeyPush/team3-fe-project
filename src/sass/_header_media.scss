@@ -1,0 +1,183 @@
+// Tablet
+@media (min-width: 768px) {
+  .container {
+    width: 748px;
+  }
+
+  .section__header {
+    padding-top: 32px;
+    margin-bottom: 21px;
+  }
+
+  .section__text {
+    margin-bottom: 34px;
+    letter-spacing: 1px;
+
+    &--size {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      margin-bottom: 33px;
+    }
+  }
+
+  .section__name {
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .section__point {
+    font-size: 18px;
+  }
+
+  .section__city {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  /*--FORMA--*/
+
+  .info {
+    padding: 23px 77px 41px;
+    margin-bottom: 10px;
+  }
+
+  .info__section {
+    margin-bottom: 25px;
+  }
+
+  .info__head {
+    margin: auto;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .info__text {
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .form {
+    margin-bottom: 27px;
+  }
+
+  .field {
+    font-weight: 500;
+  }
+
+  .confidence {
+    margin-bottom: 30px;
+  }
+}
+
+//Desktop
+@media (min-width: 1440px) {
+  .container {
+    width: 1170px;
+    //height: 100vh;
+    padding: 0 15px;
+  }
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+  }
+
+  .logo {
+    padding-top: 36px;
+  }
+
+  .section__header {
+    width: 654px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .section__text {
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 30px;
+    margin-bottom: 40px;
+
+    &--size {
+      width: 616px;
+      font-size: 35px;
+      line-height: 43px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .section__name {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 40px;
+  }
+
+  .section__point {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin: 0;
+    width: 460px;
+  }
+
+  /*--FORMA--*/
+
+  .info {
+    padding: 40px 35px 50px;
+    margin-bottom: 15px;
+  }
+
+  .info__section {
+    margin-bottom: 30px;
+  }
+
+  .info__head {
+    font-size: 33px;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 28px;
+  }
+
+  .info__text {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .form {
+    margin-bottom: 38px;
+  }
+
+  .element {
+    height: 58px;
+
+    &:not(:last-of-type) {
+      margin-bottom: 38px;
+    }
+  }
+
+  .field {
+    font-size: 18px;
+  }
+
+  .button {
+    height: 58px;
+    font-size: 22px;
+  }
+
+  .confidence {
+    margin: 0;
+    font-size: 17px;
+    margin-bottom: 90px;
+  }
+}

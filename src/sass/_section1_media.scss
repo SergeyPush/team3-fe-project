@@ -20,7 +20,7 @@
 }
 
 //Desktop
-@media (min-width: 992px) {
+@media (min-width: 1440px) {
   .advice {
     flex-direction: row;
     justify-content: space-between;
@@ -42,7 +42,7 @@
     padding-top: 120px;
   }
 
-  .advice__list{
+  .advice__list {
     padding-left: 70px;
   }
 

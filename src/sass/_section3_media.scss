@@ -64,7 +64,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1440px) {
   .container {
     max-width: 1170px;
     padding-left: 15px;
@@ -75,21 +75,31 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
+    padding-top: 30px;
 
     .section__header {
       font-size: 48px;
       text-align: left;
       line-height: 60px;
+      width: 100%;
     }
 
     .interesting {
       margin-bottom: 0;
       margin-right: 40px;
-      min-width: 63%;
+      max-width: 63%;
     }
 
     .offering {
-      min-width: 33%;
+      max-width: 33%;
     }
+  }
+}
+
+@media (min-width: 768px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .intresting-offering {
+    background-image: url("..images/img/map2@2x.png");
   }
 }

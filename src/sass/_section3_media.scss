@@ -92,7 +92,18 @@
     }
 
     .offering {
-      max-width: 33%;
+      max-width: 35%;
+    }
+  }
+}
+
+@media (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-width: 768px) and(min-resolution: 192dpi),
+  (min-width: 768px) and(min-resolution: 2dppx) {
+  .intresting-offering {
+    .interesting {
+      background-image: url("../images/img/map2@2x.png");
+      background-size: 50%;
     }
   }
 }

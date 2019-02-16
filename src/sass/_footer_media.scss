@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .footer {
+    background-size: cover;
+
+    &__bottom {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .logo {
+      margin: 0 20px 0 0;
+    }
+  }
+}
+@media (min-width: 768px) {
+}
+
+@media (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-width: 768px) and(min-resolution: 192dpi),
+  (min-width: 768px) and(min-resolution: 2dppx) {
+  .footer {
+    background-image: url("../images/img/photo@2x.jpg");
+  }
+}

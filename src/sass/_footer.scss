@@ -1,0 +1,46 @@
+.footer {
+  background-image: url("../images/img/stars_m.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding-top: 30px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .contact {
+    font-size: 20px;
+    font-family: $font_acrom;
+    color: $color_aqua;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 3;
+    text-align: center;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .moto {
+    font-size: 14px;
+    font-family: $font_acrom;
+    color: $color_white;
+    line-height: 4.286;
+  }
+}

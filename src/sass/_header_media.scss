@@ -4,7 +4,7 @@
     width: 748px;
   }
 
-  .section__header {
+  .section__head {
     padding-top: 32px;
     margin-bottom: 21px;
   }
@@ -80,7 +80,6 @@
 @media (min-width: 1440px) {
   .container {
     width: 1170px;
-    //height: 100vh;
     padding: 0 15px;
   }
 
@@ -94,7 +93,7 @@
     padding-top: 36px;
   }
 
-  .section__header {
+  .section__head {
     width: 654px;
     padding: 0;
     margin: 0;

@@ -1,10 +1,14 @@
 .footer {
-  background-image: url("../images/img/photo.jpg");
+  background-image: url("../images/img/stars_m.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  //   background-size: cover;
+  background-size: cover;
 
   padding-top: 30px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   .container {
     padding: 0 10px;
@@ -19,7 +23,6 @@
     text-transform: uppercase;
     line-height: 3;
     text-align: center;
-    margin-bottom: 200px;
   }
 
   &__bottom {

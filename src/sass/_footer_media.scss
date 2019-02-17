@@ -1,0 +1,43 @@
+// Tablet
+@media (min-width: 768px) {
+  .footer {
+    background-image: url("../images/img/stars_t.jpg");
+    min-height: 467px;
+    padding-top: 90px;
+
+    &__bottom {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .contact {
+      font-size: 30px;
+    }
+
+    .logo {
+      margin: 0 20px 0 0;
+    }
+
+    .moto {
+      font-size: 18px;
+    }
+  }
+}
+// Desktop
+@media (min-width: 1440px) {
+  .footer {
+    background-image: url("../images/img/stars_t.jpg");
+    min-height: 1050px;
+
+    padding-top: 250px;
+
+    .contact {
+      font-size: 60px;
+    }
+
+    .moto {
+      font-size: 25px;
+    }
+  }
+}

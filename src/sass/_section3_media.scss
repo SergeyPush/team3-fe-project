@@ -1,0 +1,110 @@
+// Mobile
+@media (max-width: 767px) {
+  .intresting-offering {
+    background-image: url("../images/img/map.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+
+    background-size: 80%;
+  }
+}
+
+// Tablet
+@media (min-width: 768px) {
+  .container {
+    max-width: 660px;
+    padding: 20px;
+  }
+
+  .intresting-offering {
+    .section__header {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .interesting {
+      background-image: url("../images/img/map2.png");
+      background-repeat: no-repeat;
+      background-position: 90% 75%;
+      margin-bottom: 24px;
+      // min-width: 750px;
+
+      .interesting__wrapper {
+        box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16),
+          -20px 20px 0px 0px rgba(230, 233, 235, 1);
+
+        padding-top: 20px;
+      }
+
+      .interesting__text {
+        font-size: 18px;
+        text-align: left;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .interesting__list {
+        max-width: 700px;
+        margin: 0 auto;
+        max-width: 700px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 55px 65px;
+      }
+
+      .interesting__item:not(:nth-last-of-type(1)) {
+        max-width: 170px;
+      }
+
+      .interesting__item--wide {
+        max-width: 256px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .intresting-offering {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .section__header {
+      font-size: 48px;
+      text-align: left;
+      line-height: 60px;
+      width: 100%;
+    }
+
+    .interesting {
+      margin-bottom: 0;
+      margin-right: 40px;
+      max-width: 63%;
+    }
+
+    .offering {
+      max-width: 35%;
+    }
+  }
+}
+
+@media (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-width: 768px) and(min-resolution: 192dpi),
+  (min-width: 768px) and(min-resolution: 2dppx) {
+  .intresting-offering {
+    .interesting {
+      background-image: url("../images/img/map2@2x.png");
+      background-size: 50%;
+    }
+  }
+}

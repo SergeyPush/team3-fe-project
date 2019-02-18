@@ -1,0 +1,153 @@
+.wrapper {
+  background-color: $color_fon;
+}
+
+.container {
+  width: 320px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  padding-top: 26px;
+  //margin: auto;
+  width: 100px;
+  height: 30px;
+}
+
+.section__head {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 25px;
+  margin-bottom: 15px;
+}
+
+.section__text {
+  font-family: $font_acrom;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: $color_white;
+  letter-spacing: -1px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.section__name {
+  font-family: $font_acrom;
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  line-height: 26px;
+  color: $color_aqua;
+  margin-bottom: 23px;
+}
+
+.section__point {
+  font-family: $font_acrom;
+  color: $color_yellow;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.section__city {
+  font-family: $font_acrom;
+  color: $color_yellow;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+/*--FORMA--*/
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.info {
+  background-color: $color_white;
+  box-shadow: 0px 12px 70px 0px rgba(121, 139, 188, 0.48);
+  padding: 20px 20px 26px;
+  margin-bottom: 13px;
+}
+
+.info__section {
+  margin-bottom: 14px;
+}
+
+.info__head {
+  display: block;
+  font-family: $font_acrom;
+  color: $color_black;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.info__text {
+  font-family: $font_acrom;
+  color: $color_black;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.element {
+  width: 100%;
+  height: 38px;
+  border: 1px solid $color_greybark;
+  padding: 14px;
+}
+
+.element:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+
+.field {
+  font-family: $font_acrom;
+  color: $color_greylight;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  background-color: $color_button;
+  color: $color_white;
+  font-family: $font_acrom;
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    box-shadow: 0px 2px 10px 0px rgba(255, 107, 8, 0.59);
+    transition: transform 0.3s linear, box-shadow 0.4s ease-in;
+  }
+}
+
+.confidence {
+  display: inline-block;
+  font-family: $font_acrom;
+  color: $color_greybark;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 28px;
+}

@@ -1,6 +1,7 @@
 /*
    Import partials below
 */
+
 @import "../fonts/stylesheet.css";
 
 /*Components */
@@ -18,3 +19,11 @@
 @import "./_section3_media";
 @import "./_footer";
 @import "./_footer_media";
+@import './helpers/variables';
+@import './normalize';
+@import './base';
+@import './helpers/placeholders';
+@import '../fonts/typographic';
+@import './components/container';
+@import './components/section_5';
+@import './components/section_6';

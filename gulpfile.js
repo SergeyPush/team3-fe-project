@@ -38,10 +38,7 @@ gulp.task('styles', () => {
     .pipe(plumber())
     .pipe(
       stylelint({
-        reporters: [{
-          formatter: 'string',
-          console: true
-        }]
+        reporters: [{ formatter: 'string', console: true }]
       })
     )
     .pipe(sass())
@@ -73,9 +70,7 @@ gulp.task('scripts', () => {
 gulp.task('sprite', () => {
   return gulp
     .src('./src/images/icons/icon-*.svg')
-    .pipe(svgstore({
-      inlineSvg: true
-    }))
+    .pipe(svgstore({ inlineSvg: true }))
     .pipe(rename('sprite.svg'))
     .pipe(gulp.dest('./build/images'));
 });
@@ -85,18 +80,10 @@ gulp.task('images', () => {
     .src(['./src/images/**/*.{png,jpg,jpeg,svg}', '!./src/images/icons/**/*'])
     .pipe(
       imagemin([
-        imagemin.jpegtran({
-          progressive: true
-        }),
-        imagemin.optipng({
-          optimizationLevel: 3
-        }),
+        imagemin.jpegtran({ progressive: true }),
+        imagemin.optipng({ optimizationLevel: 3 }),
         imagemin.svgo({
-          plugins: [{
-            removeViewBox: false
-          }, {
-            cleanupIDs: false
-          }]
+          plugins: [{ removeViewBox: false }, { cleanupIDs: false }]
         })
       ])
     )
@@ -111,7 +98,6 @@ gulp.task('watch', () => {
   gulp.watch('src/**/*.html', ['html']).on('change', server.reload);
   gulp.watch('src/sass/**/*.scss', ['styles']);
   gulp.watch('src/js/**/*.js', ['scripts']).on('change', server.reload);
-  gulp.watch('/src/images/**/*.{png,jpg,jpeg,svg}', ['images']).on('change', server.reload);
 });
 
 gulp.task('serve', ['styles'], () => {

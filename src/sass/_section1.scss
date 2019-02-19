@@ -36,11 +36,12 @@
     content: "";
     display: block;
     position: absolute;
-    width: 15px;
-    height: 2px;
-    background-color: $color_aqua;
-    //top: 8px;
+    width: 18px;
+    height: 10px;
+    background-image: url(../images/img/arrow.svg);
+    background-repeat: no-repeat;
     left: 1px;
+    //top: 8px;
   }
 }
 

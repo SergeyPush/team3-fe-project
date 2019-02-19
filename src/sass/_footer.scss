@@ -1,5 +1,5 @@
 .footer {
-  background-image: url("../images/img/stars_m.jpg");
+  background-image: url("../images/img/stars_t.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -42,5 +42,6 @@
     font-family: $font_acrom;
     color: $color_white;
     line-height: 4.286;
+    text-align: center;
   }
 }

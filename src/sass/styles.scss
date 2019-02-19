@@ -2,7 +2,7 @@
    Import partials below
 */
 
-@import "../fonts/stylesheet.css";
+@import "../fonts/typographic.css";
 
 /*Components */
 @import "./_variables";
@@ -20,10 +20,10 @@
 @import "./_footer";
 @import "./_footer_media";
 @import './helpers/variables';
-@import './normalize';
+// @import './normalize';
 @import './base';
 @import './helpers/placeholders';
-@import '../fonts/typographic';
+// @import '../fonts/typographic';
 @import './components/container';
 @import './components/section_5';
 @import './components/section_6';

@@ -1,10 +1,10 @@
-.page-section5 {
+.page-section4 {
     background-color: #101e31;
     padding: 30px 0;
     position: relative;
 }
 
-.page-section5__desc {
+.page-section4__desc {
     margin: 0;
     color: $main-color;
     font-family: $main-font;
@@ -22,7 +22,7 @@
     }
 }
 
-.page-section5__text {
+.page-section4__text {
     margin: 20px 0 0 0;
     font-family: $main-font;
     font-weight: 800;
@@ -49,11 +49,11 @@
     }
 }
 
-.page-section5__text--strong {
+.page-section4__text--strong {
     color: $main-color;
 }
 
-.page-section5__subtitle {
+.page-section4__subtitle {
     color: #00eaff;
     font-family: $main-font;
     font-weight: 800;
@@ -69,7 +69,7 @@
     }
 }
 
-.page-section5__link {
+.page-section4__link {
     color: $main-color;
     @extend %link;
     background-color: #ff702a;

@@ -1,8 +1,9 @@
-.page-section6 {
+.page-section5 {
     padding: 40px 0;
+    position: relative;
 }
 
-.page-section6__title {
+.page-section5__title {
     margin: 0 0 36px 0;
     font-family: $main-font;
     font-weight: 800;
@@ -21,7 +22,7 @@
     }
 }
 
-.page-section6__caption {
+.page-section5__caption {
     margin: 0 0 40px 0;
     font-family: $main-font;
     font-weight: 800;
@@ -31,8 +32,20 @@
     background-color: #edf0f2;
     display: inline-block;
 }
-
-.page-section6__list {
+// .page-section5__numbering{
+//     font-size: 50px;
+//     font-family: $font_msr;
+//     color:  rgb(237, 240, 242);
+//     font-weight: bold;
+//     line-height: 1.2;
+//     text-align: left;
+//     position: absolute;
+//     left: 462px;
+//     top: 192px;
+//     mix-blend-mode: overlay;
+//     z-index: -1;
+// }
+.page-section5__list {
     @extend %list;
     position: relative;
     @media screen and (min-width: 768px) {
@@ -42,7 +55,9 @@
     }
 }
 
-.page-section6__item {
+.page-section5__item {
+    position: relative;
+    z-index: 3;
     padding: 5px 5px;
     margin: 0 0 60px 0;
     &:nth-child(-n+3):hover {
@@ -56,7 +71,7 @@
             padding: 10px;
             width: 220px;
         }
-        &:nth-child(1) .page-section6__text {
+        &:nth-child(1) .page-section5__text {
             margin-bottom: 80px;
         }
     }
@@ -79,7 +94,7 @@
     }
 }
 
-.page-section6__subtitle {
+.page-section5__subtitle {
     margin: 0 0 20px 0;
     font-family: $main-font;
     font-weight: 800;
@@ -97,7 +112,7 @@
     }
 }
 
-.page-section6__subtitle1 {
+.page-section5__subtitle1 {
     display: block;
     margin: 0 0 20px 0;
     font-family: $main-font;
@@ -108,7 +123,7 @@
     text-transform: uppercase;
 }
 
-.page-section6__item--oon {
+.page-section5__item--oon {
     display: block;
     background-image: url(../images/oon.png);
     background-repeat: no-repeat;
@@ -118,7 +133,7 @@
     }
 }
 
-.page-section6__text {
+.page-section5__text {
     margin: 0 0 25px 0;
     font-family: $main-font;
     font-weight: 400;
@@ -130,12 +145,12 @@
     }
 }
 
-.page-section6__text-strong {
+.page-section5__text-strong {
     color: $secondary-color;
     font-weight: 800;
 }
 
-.page-section6__photo {
+.page-section5__photo {
     margin: 0 auto;
     @media screen and (min-width: 1440px) {
         position: absolute;

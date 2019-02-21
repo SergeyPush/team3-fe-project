@@ -32,19 +32,39 @@
   background-color: #edf0f2;
   display: inline-block;
 }
-// .page-section5__numbering{
-//     font-size: 50px;
-//     font-family: $font_msr;
-//     color:  rgb(237, 240, 242);
-//     font-weight: bold;
-//     line-height: 1.2;
-//     text-align: left;
-//     position: absolute;
-//     left: 462px;
-//     top: 192px;
-//     mix-blend-mode: overlay;
-//     z-index: -1;
-// }
+.page-section5__numbering{
+    font-size: 58px;
+    font-family: $font_msr;
+    color:  #edf0f2;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 67%;
+    top: 7%;
+    mix-blend-mode: normal;
+    z-index: -1;
+    @media screen and (min-width: 768px){
+        left: 28%;
+        top: 11%;
+    }
+    @media screen and (min-width: 1440px){
+        top: 59%;
+    
+    }
+}
+.page-section5__numbering--2{
+    top: 23%;
+    @media screen and (min-width: 768px){
+       left: 55%; 
+    }
+}
+.page-section5__numbering--3{
+    top: 42.5%;
+    @media screen and (min-width: 768px){
+        left: 84%; 
+     }
+}
 .page-section5__list {
   @extend %list;
   position: relative;
@@ -57,7 +77,8 @@
 
 .page-section5__item {
   position: relative;
-  z-index: 3;
+  z-index: 5;
+  background-color: #ffffff;
   padding: 5px 5px;
   margin: 0 0 60px 0;
   &:nth-child(-n + 3):hover {

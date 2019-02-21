@@ -19,6 +19,7 @@
     font-size: 30px;
     line-height: 35px;
     width: 670px;
+    margin-bottom: 70px;
   }
 }
 
@@ -30,6 +31,7 @@
   line-height: 22px;
   color: #c1c2c4;
   font-weight: normal;
+  margin-bottom: 35px;
   &::before {
     content: "";
     display: block;
@@ -40,12 +42,14 @@
   @media screen and (min-width: 768px) {
     width: 384px;
     font-size: 16px;
+    margin-bottom: 40px;
   }
   @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 35px;
     position: absolute;
     left: 65%;
+    top: 42%;
   }
 }
 
@@ -59,13 +63,16 @@
   font-weight: 800;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 28px;
   @media screen and (min-width: 768px) {
     font-size: 40px;
     line-height: 50px;
+    margin-bottom: 40px;
   }
   @media screen and (min-width: 1440px) {
     font-size: 48px;
     width: 683px;
+    margin-bottom: 65px;
   }
 }
 

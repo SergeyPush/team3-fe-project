@@ -1,0 +1,105 @@
+.page-section4 {
+  background-color: #101e31;
+  padding: 30px 0;
+  position: relative;
+}
+
+.page-section4__desc {
+  margin: 0;
+  color: $color_white;
+  font-family: $font_acrom;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    line-height: 35px;
+    width: 670px;
+    margin-bottom: 70px;
+  }
+}
+
+.page-section4__text {
+  margin: 20px 0 0 0;
+  font-family: $font_acrom;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 22px;
+  color: #c1c2c4;
+  font-weight: normal;
+  margin-bottom: 35px;
+  &::before {
+    content: "";
+    display: block;
+    width: 60px;
+    border-bottom: 3px solid #00eaff;
+    margin-bottom: 14px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 384px;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+    line-height: 35px;
+    position: absolute;
+    left: 65%;
+    top: 42%;
+  }
+}
+
+.page-section4__text--strong {
+  color: $color_white;
+}
+
+.page-section4__subtitle {
+  color: #00eaff;
+  font-family: $font_acrom;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 28px;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 48px;
+    width: 683px;
+    margin-bottom: 65px;
+  }
+}
+
+.page-section4__link {
+  color: $color_white;
+  @extend %link;
+  background-color: #ff702a;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 100%;
+  padding: 24px 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: $font_acrom;
+  font-weight: 800;
+  border: none;
+  &:hover {
+    background-color: $color_white;
+    color: #ff702a;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    width: 683px;
+    margin: 0;
+  }
+}
